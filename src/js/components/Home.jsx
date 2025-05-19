@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "../components/Footer";
+
 
 //include images into your bundle
 
@@ -19,7 +21,9 @@ const Home = () => {
 			</a>
 			
 		</div>
+		<Footer />
 		</div>
+		
 	);
 };
 
